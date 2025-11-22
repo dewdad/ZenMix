@@ -31,7 +31,7 @@ A modern, offline-first Progressive Web App (PWA) for mixing and playing ambient
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd redax-sounds
+   cd ZenMix
    ```
 
 2. Install dependencies:

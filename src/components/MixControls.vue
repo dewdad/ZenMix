@@ -29,7 +29,7 @@ import { useSoundStore } from '../stores/soundStore';
 import { useStorage } from '@vueuse/core';
 
 const store = useSoundStore();
-const savedMixes = useStorage('redax-sounds-mixes', []);
+const savedMixes = useStorage('ZenMix-mixes', []);
 const newMixName = ref('');
 
 const canSave = computed(() => {

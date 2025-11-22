@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg', 'sounds/*.webm'],
       manifest: {
-        name: 'Redax Sounds',
-        short_name: 'Redax',
+        name: 'ZenMix',
+        short_name: 'ZenMix',
         description: 'Relax and Sleep with Ambient Sounds',
         theme_color: '#1a1c2c',
         icons: [

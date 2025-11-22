@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/redax-sounds/sw.js', { scope: '/redax-sounds/' })})}

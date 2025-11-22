@@ -60,6 +60,18 @@ To preview the production build locally:
 npm run preview
 ```
 
+## Deployment
+
+To deploy the application to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+This command will build the project and push the `dist` folder to the `gh-pages` branch.
+
+You can view the deployed application at: [https://dewdad.github.io/ZenMix/](https://dewdad.github.io/ZenMix/)
+
 ## License
 
 [MIT](LICENSE)

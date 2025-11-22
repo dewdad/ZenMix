@@ -62,5 +62,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/redax-sounds/', // Assuming deployment to https://<user>.github.io/redax-sounds/
+  base: '/ZenMix/', // Deployment to https://dewdad.github.io/ZenMix/
 })

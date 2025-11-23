@@ -31,6 +31,8 @@
     <footer>
       <p>Improved fork of Redax Sounds with Vue.js & Howler.js</p>
     </footer>
+
+    <OfflineNotification />
   </div>
 </template>
 
@@ -39,6 +41,7 @@ import { onMounted } from 'vue';
 import { useSoundStore } from './stores/soundStore';
 import SoundCard from './components/SoundCard.vue';
 import MixControls from './components/MixControls.vue';
+import OfflineNotification from './components/OfflineNotification.vue';
 
 const store = useSoundStore();
 

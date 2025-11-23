@@ -7,8 +7,20 @@ A modern, offline-first Progressive Web App (PWA) for mixing and playing ambient
 - 🎵 **Sound Mixing**: Play multiple sounds simultaneously to create your perfect ambiance.
 - 💾 **Save & Load Mixes**: Save your favorite sound combinations and volume levels directly in your browser.
 - 📱 **Responsive Design**: optimized for both desktop and mobile devices.
-- 🔌 **Offline Capable**: Works without an internet connection once installed.
+- 🔌 **Offline Capable**: Works without an internet connection once installed - all 24 sound files are cached locally!
 - 🎨 **Modern UI**: Clean and intuitive interface.
+
+## 🔌 Offline Functionality
+
+**ZenMix works completely offline!** Once you visit the app for the first time, all sound files (~20MB) are automatically cached in your browser. This means:
+
+- ✅ All 24 ambient sounds available offline
+- ✅ No internet required after initial load
+- ✅ Instant loading from cache
+- ✅ Mix saving/loading works offline (localStorage)
+- ✅ Automatic updates when online
+
+**See [OFFLINE.md](OFFLINE.md) for detailed information about offline capabilities, testing, and troubleshooting.**
 
 ## Tech Stack
 
